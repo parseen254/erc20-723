@@ -1,66 +1,66 @@
-## Foundry
+# 🪙 ERC20 Token Implementation with OpenZeppelin
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This project demonstrates a basic ERC20 token implementation using OpenZeppelin contracts and Foundry for testing and deployment.
 
-Foundry consists of:
+## 🎯 Overview
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+The project includes:
+- 💎 A standard ERC20 token implementation using OpenZeppelin
+- ✅ Comprehensive test suite
+- 🚀 Deployment scripts
 
-## Documentation
+## 🛠 Foundry Development Tools
 
-https://book.getfoundry.sh/
+This project uses Foundry's suite of tools:
+- 🔨 **Forge**: For testing and deployment
+- 🎮 **Cast**: For contract interaction
+- ⚒️ **Anvil**: For local development
 
-## Usage
+## 🏃‍♂️ Getting Started
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
+### 📦 Install Dependencies
 
 ```shell
-$ forge test
+forge install
 ```
 
-### Format
+### 🏗️ Build
 
 ```shell
-$ forge fmt
+forge build
 ```
 
-### Gas Snapshots
+### 🧪 Test
 
 ```shell
-$ forge snapshot
+forge test
 ```
 
-### Anvil
+### 🚀 Deploy
 
 ```shell
-$ anvil
+forge script script/DeployTOZ.s.sol:DeployTOZ --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
-### Deploy
+## ✨ Token Features
 
+- 💫 Standard ERC20 functionality
+- 🎁 Initial supply minted to deployer
+- 💸 Transfer and approval mechanisms
+- 🔢 Decimals: 18
+
+## 🧪 Testing
+
+The test suite includes:
+- 💰 Balance checking
+- 📤 Transfer functionality
+- ✅ Allowance and transferFrom operations
+
+Run tests with verbosity:
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+forge test -vv
 ```
 
-### Cast
+## 📜 License
 
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+MIT
