@@ -6,7 +6,7 @@ pragma solidity ^0.8.20;
 // ERC20 Requirements: https://eips.ethereum.org/EIPS/eip-20#specification
 
 contract ManualToken {
-    mapping (address => uint256) private balances;
+    mapping(address => uint256) private balances;
 
     function name() public pure returns (string memory) {
         return "Manual Token";
@@ -24,12 +24,11 @@ contract ManualToken {
         return balances[_owner];
     }
 
-    function  transfer(address _to, uint256 _value) public {
+    function transfer(address _to, uint256 _value) public {
         uint256 previousBalances = balanceOf(msg.sender) + balanceOf(_to);
         balances[msg.sender] -= _value;
-        balances[_to]  += _value;
+        balances[_to] += _value;
 
         require(balanceOf(msg.sender) + balanceOf(_to) == previousBalances);
-
     }
 }

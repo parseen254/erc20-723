@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import { Test } from "forge-std/Test.sol";
-import { DeployTOZ } from "../script/DeployTOZ.s.sol";
-import { TokenFromOpenZeppelin } from "../src/TokenFromOpenZeppelin.sol";
+import {Test} from "forge-std/Test.sol";
+import {DeployTOZ} from "../script/DeployTOZ.s.sol";
+import {TokenFromOpenZeppelin} from "../src/TokenFromOpenZeppelin.sol";
 
 contract TestTOZ is Test {
     TokenFromOpenZeppelin public toz;
