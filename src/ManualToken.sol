@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.20;
 
 // Token standard reference: https://eips.ethereum.org/EIPS/eip-20
 // ERC20 Requirements: https://eips.ethereum.org/EIPS/eip-20#specification
