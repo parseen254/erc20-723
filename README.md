@@ -5,6 +5,7 @@ This project demonstrates a basic ERC20 token implementation using OpenZeppelin 
 ## 🎯 Overview
 
 The project includes:
+
 - 💎 A standard ERC20 token implementation using OpenZeppelin
 - ✅ Comprehensive test suite
 - 🚀 Deployment scripts
@@ -12,6 +13,7 @@ The project includes:
 ## 🛠 Foundry Development Tools
 
 This project uses Foundry's suite of tools:
+
 - 🔨 **Forge**: For testing and deployment
 - 🎮 **Cast**: For contract interaction
 - ⚒️ **Anvil**: For local development
@@ -52,11 +54,13 @@ forge script script/DeployTOZ.s.sol:DeployTOZ --rpc-url <your_rpc_url> --private
 ## 🧪 Testing
 
 The test suite includes:
+
 - 💰 Balance checking
 - 📤 Transfer functionality
 - ✅ Allowance and transferFrom operations
 
 Run tests with verbosity:
+
 ```shell
 forge test -vv
 ```
