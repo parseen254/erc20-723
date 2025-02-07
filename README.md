@@ -1,6 +1,7 @@
 # 🪙 ERC20 Token Implementation with OpenZeppelin
 
 [![CI](https://github.com/parseen254/erc20-723/actions/workflows/test.yml/badge.svg)](https://github.com/parseen254/erc20-723/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/parseen254/erc20-f23/graph/badge.svg?token=CQQIZEGQJW)](https://codecov.io/gh/parseen254/erc20-f23)
 
 This project demonstrates a basic ERC20 token implementation using OpenZeppelin contracts and Foundry for testing and deployment.
 
